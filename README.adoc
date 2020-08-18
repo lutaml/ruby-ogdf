@@ -1,0 +1,88 @@
+= Expressir: EXPRESS in Ruby
+
+image:https://github.com/lutaml/ruby-ogdf/workflows/ubuntu/badge.svg[ubuntu]
+image:https://github.com/lutaml/ruby-ogdf/workflows/macos/badge.svg[macos]
+image:https://github.com/lutaml/ruby-ogdf/workflows/windows/badge.svg[windows]
+
+== Purpose
+
+Ruby binding for the OGDF diagram library.
+
+
+== Development
+
+We are following Sandi Metz's Rules for this gem, you can read
+the http://robots.thoughtbot.com/post/50655960596/sandi-metz-rules-for-developers[description of the rules here] All new code should follow these rules.
+If you make changes in a pre-existing file that violates these rules you should
+fix the violations as part of your contribution.
+
+=== Setup
+
+Clone the repository.
+
+[source, sh]
+----
+git clone https://github.com/lutaml/ruby-ogdf
+----
+
+Setup your environment.
+
+[source, sh]
+----
+bin/setup
+----
+
+Run the test suite
+
+[source, sh]
+----
+bin/rspec
+----
+
+== Installation
+
+Add this line to your application's `Gemfile`:
+
+[source, sh]
+----
+gem "ogdf"
+----
+
+And then execute:
+
+[source, sh]
+----
+$ bundle install
+----
+
+Or install it yourself as:
+
+[source, sh]
+----
+$ gem install ogdf
+----
+
+
+== Contributing
+
+First, thank you for contributing! We love pull requests from everyone. By
+participating in this project, you hereby grant
+https://www.ribose.com[Ribose Inc.] the right to grant or transfer an unlimited
+number of non exclusive licenses or sub-licenses to third parties, under the
+copyright covering the contribution to use the contribution by all means.
+
+Here are a few technical guidelines to follow:
+
+* Open an https://github.com/lutaml/ruby-ogdf/issues[issues] to discuss a new
+  feature.
+* Write tests to support your new feature.
+* Make sure the entire test suite passes locally and on CI.
+* Open a Pull Request.
+* https://github.com/thoughtbot/guides/tree/master/protocol/git#write-a-feature[Squash your commits] after receiving feedback.
+* Party!
+
+
+== License
+
+Ruby-OGDF is distributed under the BSD 2-clause license.
+
